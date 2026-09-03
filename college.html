@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Retrouvez les ressources scolaires pour les élèves du collège."
+    >
+
+    <title>Collège | Plateforme Scolaire</title>
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    >
+
+    <!-- CSS du projet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+    <header class="site-header">
+
+        <div class="container header-inner">
+
+            <!-- Logo -->
+            <a class="brand" href="index.html">
+
+                <span class="brand-mark">
+                    <i class="bi bi-mortarboard-fill" aria-hidden="true"></i>
+                </span>
+
+                <span>
+                    <strong>Plateforme Scolaire</strong>
+                    <small>Ressources pour tous les niveaux</small>
+                </span>
+
+            </a>
+
+
+            <!-- Menu mobile -->
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-label="Ouvrir le menu"
+                aria-expanded="false"
+            >
+                <i class="bi bi-list" aria-hidden="true"></i>
+            </button>
+
+
+            <!-- Navigation -->
+            <nav class="main-nav" aria-label="Navigation principale">
+
+                <a href="index.html">
+                    Accueil
+                </a>
+
+                <a
+                    href="college.html"
+                    class="active"
+                    aria-current="page"
+                >
+                    Collège
+                </a>
+
+                <a href="lycee.html">
+                    Lycée
+                </a>
+
+                <a href="recherche.html">
+                    Recherche
+                </a>
+
+                <a href="favoris.html">
+                    Favoris
+                </a>
+
+                <a href="historique.html">
+                    Historique
+                </a>
+
+                <a href="a-propos.html">
+                    À propos
+                </a>
+
+            </nav>
+
+
+            <!-- Connexion -->
+            <a href="#" class="login-btn">
+                Se connecter
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- =====================================================
+             HERO COLLÈGE
+        ====================================================== -->
+        <section class="hero college-hero">
+
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+
+                    <span class="eyebrow">
+                        <i
+                            class="bi bi-backpack-fill"
+                            aria-hidden="true"
+                        ></i>
+
+                        Espace Collège
+                    </span>
+
+
+                    <h1>
+                        Toutes vos ressources
+                        <span>pour le collège.</span>
+                    </h1>
+
+
+                    <p>
+                        Retrouvez des cours, exercices, fiches de révision
+                        et autres ressources numériques organisés par niveau
+                        et par matière.
+                    </p>
+
+
+                    <!-- Recherche -->
+                    <form
+                        class="hero-search"
+                        id="collegeSearchForm"
+                    >
+
+                        <i
+                            class="bi bi-search"
+                            aria-hidden="true"
+                        ></i>
+
+                        <input
+                            type="search"
+                            id="collegeSearch"
+                            placeholder="Rechercher une ressource..."
+                            aria-label="Rechercher une ressource"
+                        >
+
+                        <button type="submit">
+                            Rechercher
+                        </button>
+
+                    </form>
+
+                </div>
+
+
+                <!-- Illustration -->
+                <div class="hero-visual">
+
+                    <div class="illustration">
+
+                        <div class="board">
+                            <i
+                                class="bi bi-calculator"
+                                aria-hidden="true"
+                            ></i>
+
+                            <span>6ème → 3ème</span>
+                        </div>
+
+                        <div class="book book-1"></div>
+                        <div class="book book-2"></div>
+
+                        <div class="laptop">
+                            <div>
+                                <i
+                                    class="bi bi-book-half"
+                                    aria-hidden="true"
+                                ></i>
+                            </div>
+                        </div>
+
+                        <div class="pencil">
+                            <i
+                                class="bi bi-pencil-fill"
+                                aria-hidden="true"
+                            ></i>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             NIVEAUX
+        ====================================================== -->
+        <section class="section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span>
+                        Votre niveau
+                    </span>
+
+                    <h2>
+                        Choisissez votre classe
+                    </h2>
+
+                    <p>
+                        Sélectionnez votre niveau pour accéder aux ressources
+                        qui vous correspondent.
+                    </p>
+
+                </div>
+
+
+                <div class="level-grid college-levels">
+
+                    <!-- 6ème -->
+                    <a
+                        href="classe.html?niveau=6eme"
+                        class="level-card"
+                    >
+
+                        <span class="level-icon">
+                            <i
+                                class="bi bi-1-circle-fill"
+                                aria-hidden="true"
+                            ></i>
+                        </span>
+
+                        <em>
+                            Premier niveau
+                        </em>
+
+                        <h3>
+                            6ème
+                        </h3>
+
+                        <p>
+                            Cours et exercices pour la classe de 6ème.
+                        </p>
+
+                        <b>
+                            Explorer
+                            <i
+                                class="bi bi-arrow-right"
+                                aria-hidden="true"
+                            ></i>
+                        </b>
+
+                    </a>
+
+
+                    <!-- 5ème -->
+                    <a
+                        href="classe.html?niveau=5eme"
+                        class="level-card"
+                    >
+
+                        <span class="level-icon">
+                            <i
+                                class="bi bi-2-circle-fill"
+                                aria-hidden="true"
+                            ></i>
+                        </span>
+
+                        <em>
+                            Deuxième niveau
+                        </em>
+
+                        <h3>
+                            5ème
+                        </h3>
+
+                        <p>
+                            Cours et exercices pour la classe de 5ème.
+                        </p>
+
+                        <b>
+                            Explorer
+                            <i
+                                class="bi bi-arrow-right"
+                                aria-hidden="true"
+                            ></i>
+                        </b>
+
+                    </a>
+
+
+                    <!-- 4ème -->
+                    <a
+                        href="classe.html?niveau=4eme"
+                        class="level-card"
+                    >
+
+                        <span class="level-icon">
+                            <i
+                                class="bi bi-3-circle-fill"
+                                aria-hidden="true"
+                            ></i>
+                        </span>
+
+                        <em>
+                            Troisième niveau
+                        </em>
+
+                        <h3>
+                            4ème
+                        </h3>
+
+                        <p>
+                            Cours et exercices pour la classe de 4ème.
+                        </p>
+
+                        <b>
+                            Explorer
+                            <i
+                                class="bi bi-arrow-right"
+                                aria-hidden="true"
+                            ></i>
+                        </b>
+
+                    </a>
+
+
+                    <!-- 3ème -->
+                    <a
+                        href="classe.html?niveau=3eme"
+                        class="level-card"
+                    >
+
+                        <span class="level-icon">
+                            <i
+                                class="bi bi-4-circle-fill"
+                                aria-hidden="true"
+                            ></i>
+                        </span>
+
+                        <em>
+                            Quatrième niveau
+                        </em>
+
+                        <h3>
+                            3ème
+                        </h3>
+
+                        <p>
+                            Préparez efficacement vos examens et révisions.
+                        </p>
+
+                        <b>
+                            Explorer
+                            <i
+                                class="bi bi-arrow-right"
+                                aria-hidden="true"
+                            ></i>
+                        </b>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             MATIÈRES
+        ====================================================== -->
+        <section class="section soft">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span>
+                        Matières
+                    </span>
+
+                    <h2>
+                        Explorez par matière
+                    </h2>
+
+                    <p>
+                        Accédez rapidement aux ressources de chaque matière.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-grid college-subjects">
+
+                    <!-- Mathématiques -->
+                    <a href="matiere.html?matiere=mathematiques">
+
+                        <article>
+
+                            <div>
+                                <i
+                                    class="bi bi-calculator-fill"
+                                    aria-hidden="true"
+                                ></i>
+                            </div>
+
+                            <h3>
+                                Mathématiques
+                            </h3>
+
+                            <p>
+                                Cours, exercices et fiches de révision.
+                            </p>
+
+                        </article>
+
+                    </a>
+
+
+                    <!-- Français -->
+                    <a href="matiere.html?matiere=francais">
+
+                        <article>
+
+                            <div>
+                                <i
+                                    class="bi bi-book-half"
+                                    aria-hidden="true"
+                                ></i>
+                            </div>
+
+                            <h3>
+                                Français
+                            </h3>
+
+                            <p>
+                                Grammaire, littérature, conjugaison et rédaction.
+                            </p>
+
+                        </article>
+
+                    </a>
+
+
+                    <!-- Anglais -->
+                    <a href="matiere.html?matiere=anglais">
+
+                        <article>
+
+                            <div>
+                                <i
+                                    class="bi bi-translate"
+                                    aria-hidden="true"
+                                ></i>
+                            </div>
+
+                            <h3>
+                                Anglais
+                            </h3>
+
+                            <p>
+                                Vocabulary, grammar, reading et exercices.
+                            </p>
+
+                        </article>
+
+                    </a>
+
+
+                    <!-- Physique-Chimie -->
+                    <a href="matiere.html?matiere=physique-chimie">
+
+                        <article>
+
+                            <div>
+                                <i
+                                    class="bi bi-lightning-charge-fill"
+                                    aria-hidden="true"
+                                ></i>
+                            </div>
+
+                            <h3>
+                                Physique-Chimie
+                            </h3>
+
+                            <p>
+                                Cours, expériences et exercices.
+                            </p>
+
+                        </article>
+
+                    </a>
+
+
+                    <!-- SVT -->
+                    <a href="matiere.html?matiere=svt">
+
+                        <article>
+
+                            <div>
+                                <i
+                                    class="bi bi-flower1"
+                                    aria-hidden="true"
+                                ></i>
+                            </div>
+
+                            <h3>
+                                SVT
+                            </h3>
+
+                            <p>
+                                Sciences de la vie et de la Terre.
+                            </p>
+
+                        </article>
+
+                    </a>
+
+
+                    <!-- Histoire-Géographie -->
+                    <a href="matiere.html?matiere=histoire-geographie">
+
+                        <article>
+
+                            <div>
+                                <i
+                                    class="bi bi-globe2"
+                                    aria-hidden="true"
+                                ></i>
+                            </div>
+
+                            <h3>
+                                Histoire-Géographie
+                            </h3>
+
+                            <p>
+                                Cours, cartes, fiches et documents.
+                            </p>
+
+                        </article>
+
+                    </a>
+
+
+                    <!-- Informatique -->
+                    <a href="matiere.html?matiere=informatique">
+
+                        <article>
+
+                            <div>
+                                <i
+                                    class="bi bi-pc-display"
+                                    aria-hidden="true"
+                                ></i>
+                            </div>
+
+                            <h3>
+                                Informatique
+                            </h3>
+
+                            <p>
+                                Notions et ressources numériques.
+                            </p>
+
+                        </article>
+
+                    </a>
+
+
+                    <!-- Éducation civique -->
+                    <a href="matiere.html?matiere=education-civique">
+
+                        <article>
+
+                            <div>
+                                <i
+                                    class="bi bi-people-fill"
+                                    aria-hidden="true"
+                                ></i>
+                            </div>
+
+                            <h3>
+                                Éducation civique
+                            </h3>
+
+                            <p>
+                                Citoyenneté, société et vie collective.
+                            </p>
+
+                        </article>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             RESSOURCES RÉCENTES
+        ====================================================== -->
+        <section class="section">
+
+            <div class="container">
+
+                <div class="section-heading row">
+
+                    <div>
+
+                        <span>
+                            Ressources
+                        </span>
+
+                        <h2>
+                            Ressources du collège
+                        </h2>
+
+                        <p>
+                            Découvrez quelques ressources disponibles.
+                        </p>
+
+                    </div>
+
+                    <a
+                        href="recherche.html?niveau=college"
+                        class="outline-btn"
+                    >
+                        Voir toutes les ressources
+                        <i
+                            class="bi bi-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+
+                <div
+                    class="resource-grid"
+                    id="collegeResources"
+                >
+
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             CTA
+        ====================================================== -->
+        <section class="cta">
+
+            <div class="container cta-card">
+
+                <div>
+
+                    <span>
+                        Révisez efficacement
+                    </span>
+
+                    <h2>
+                        Trouvez la ressource dont vous avez besoin.
+                    </h2>
+
+                    <p>
+                        Utilisez la recherche pour retrouver rapidement
+                        un cours, un exercice ou une fiche.
+                    </p>
+
+                </div>
+
+                <a
+                    href="recherche.html?niveau=college"
+                    class="primary-btn"
+                >
+                    Rechercher une ressource
+                    <i
+                        class="bi bi-search"
+                        aria-hidden="true"
+                    ></i>
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+    <footer class="site-footer">
+
+        <div class="container footer-grid">
+
+            <div>
+
+                <h3>
+                    <i
+                        class="bi bi-mortarboard-fill"
+                        aria-hidden="true"
+                    ></i>
+
+                    Plateforme Scolaire
+                </h3>
+
+                <p>
+                    Une plateforme pour accompagner les élèves
+                    du collège au lycée.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Navigation
+                </h3>
+
+                <a href="index.html">
+                    Accueil
+                </a>
+
+                <a href="college.html">
+                    Collège
+                </a>
+
+                <a href="lycee.html">
+                    Lycée
+                </a>
+
+                <a href="recherche.html">
+                    Recherche
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Collège
+                </h3>
+
+                <a href="classe.html?niveau=6eme">
+                    6ème
+                </a>
+
+                <a href="classe.html?niveau=5eme">
+                    5ème
+                </a>
+
+                <a href="classe.html?niveau=4eme">
+                    4ème
+                </a>
+
+                <a href="classe.html?niveau=3eme">
+                    3ème
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Ressources
+                </h3>
+
+                <a href="recherche.html">
+                    Cours
+                </a>
+
+                <a href="recherche.html">
+                    Exercices
+                </a>
+
+                <a href="recherche.html">
+                    Fiches
+                </a>
+
+                <a href="recherche.html">
+                    Annales
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="container footer-bottom">
+
+            © <span id="currentYear"></span>
+            Plateforme Scolaire.
+            Tous droits réservés.
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="js/app.js"></script>
+    <script src="js/catalogue.js"></script>
+
+</body>
+</html>

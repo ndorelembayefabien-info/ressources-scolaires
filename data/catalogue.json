@@ -1,0 +1,58 @@
+{
+  "ressources": [
+    {
+      "id": 1,
+      "titre": "Cours de mathématiques - Nombres entiers",
+      "description": "Cours destiné aux élèves de 6ème.",
+      "matiere": "Mathématiques",
+      "niveau": "6eme",
+      "type": "pdf",
+      "fichier": "documents/college/6eme/mathematiques-nombres-entiers.pdf"
+    },
+    {
+      "id": 2,
+      "titre": "Exercices de français",
+      "description": "Exercices de grammaire et de conjugaison.",
+      "matiere": "Français",
+      "niveau": "5eme",
+      "type": "pdf",
+      "fichier": "documents/college/5eme/francais-exercices.pdf"
+    },
+    {
+      "id": 3,
+      "titre": "Introduction à la physique",
+      "description": "Fiche de cours sur les notions fondamentales.",
+      "matiere": "Physique-Chimie",
+      "niveau": "4eme",
+      "type": "pdf",
+      "fichier": "documents/college/4eme/introduction-physique.pdf"
+    },
+    {
+      "id": 4,
+      "titre": "Préparation au BEPC",
+      "description": "Ressources de révision pour préparer le BEPC.",
+      "matiere": "Mathématiques",
+      "niveau": "3eme",
+      "type": "pdf",
+      "fichier": "documents/college/3eme/preparation-bepc.pdf"
+    },
+    {
+      "id": 5,
+      "titre": "Grammaire française",
+      "description": "Fiche de révision sur les principales règles de grammaire.",
+      "matiere": "Français",
+      "niveau": "6eme",
+      "type": "pdf",
+      "fichier": "documents/college/6eme/grammaire.pdf"
+    },
+    {
+      "id": 6,
+      "titre": "Sciences de la vie et de la Terre",
+      "description": "Cours et exercices de SVT.",
+      "matiere": "SVT",
+      "niveau": "3eme",
+      "type": "pdf",
+      "fichier": "documents/college/3eme/svt.pdf"
+    }
+  ]
+}
